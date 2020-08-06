@@ -1,0 +1,8 @@
+% Copyright 2000-2005 The MathWorks, Inc.
+%   $Revision: 1.2.4.3 $  $Date: 2005/12/22 17:32:13 $
+<(slview)Sampling time: %0.5g
+>(slview)»ÝÌßØÝ¸ÞŽžŠÔ: %0.5g
+<(ltiview)All models must have the same number of inputs and outputs.
+>(ltiview)‘S‚Ä‚ÌÓÃÞÙ‚Í¤“ü—Í”‚Æo—Í”‚ª“¯‚¶‚Å‚È‚¯‚ê‚Î‚È‚è‚Ü‚¹‚ñ
+<(ltiview)Not available for improper systems.
+>(ltiview)ÌßÛÊß‚Å‚È‚¢¼½ÃÑ‚É‘Î‚µ‚Ä‚Í—˜—p‚Å‚«‚Ü‚¹‚ñ

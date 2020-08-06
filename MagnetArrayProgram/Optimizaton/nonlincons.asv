@@ -1,0 +1,15 @@
+function [c, ceq] = nonlincons(x)
+x = mapping(x);
+param = [x(1) x(4) x(7) x(10);
+    x(2) x(5) x(8) x(11);
+    x(3) x(6) x(9) x(12)];
+dBz = dbz2(x(15),x(13),x(14),param);
+dBz_11 = dbz2(x(15), (x(13)+0.5), x(14), param);
+dBz_12 = dbz2(x(15), (x(13)-0.5), x(14), param);
+dBz_21 = dbz2(x(15), x(13), x(14)-1.3, param);
+dBz_22 = dbz2(x(15), x(13), x(14)+1.3, param);
+c = [dBz+;
+    abs(dBz_12-dBz_11)-5;
+    abs(dBz_21-dBz_22)-8];
+ceq = [];
+end
